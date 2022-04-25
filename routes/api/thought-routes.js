@@ -7,19 +7,18 @@ const {
     deleteThought,
     createNewReaction,
     deleteReaction
-} = require('../../controllers/user-controller');
+} = require('../../controllers/thought-controller');
 
-// /api/users
+// /api/thoughts
 router
-    .route('/thoughts')
+    .route('/')
     .get(getThoughts)
     .post(createNewThought)
-    // TODO: don't forget to push the created thought's _id to the associated user's thoughts array field
-    
+
 
 // /api/thoughts/:id
 router
-    .route('thoughts/:id')
+    .route('/:id')
     .get(getThoughtById)
     .put(updateThought)
     .delete(deleteThought);
@@ -27,8 +26,11 @@ router
 // /api/thoughts/:thoughtId/reactions
 
 router
-    .route('/thoughts/:thoughtId/reactions')
+    .route('/:thoughtId/reactions')
     .post(createNewReaction)
+
+router
+    .route('/:thoughtId/reactions/:reactionId')
     .delete(deleteReaction);
 
 module.exports = router;
