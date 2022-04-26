@@ -20,6 +20,7 @@
   ## Installation Guidelines
   * Clone or fork
   * Then run 'npm install' to install dependancies
+  * Run 'mongod' to start Mongoose
   * Finally start the server by using 'npm run start' or 'npm run watch' to initialize nodemon, helpful if intending to make changes to the code and see live results.  
 
   ## Usage Guidelines
