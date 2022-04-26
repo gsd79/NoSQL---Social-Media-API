@@ -5,7 +5,8 @@
 
 ## Walkthrough Video
 https://drive.google.com/file/d/13qAd-q7IqtZkC2dzs2SflXIiShjOklY6/view
- [!walkthroughvideogif](./assets/smvideo.gif)
+
+ ![walkthroughvideo](./assets/smvideo.gif)
  
 
 
