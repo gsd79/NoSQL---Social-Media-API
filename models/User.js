@@ -1,5 +1,6 @@
 const { Schema, model } = require('mongoose');
 
+// userschema exported as model
 const UserSchema = new Schema(
     {
 
@@ -36,6 +37,7 @@ const UserSchema = new Schema(
 }
 );
 
+// user virtual to push new entries as 'friendCount' into array of 'friends' field of userschema
 UserSchema.virtual('friendCount').get(function () {
     return this.friends.length;
 });

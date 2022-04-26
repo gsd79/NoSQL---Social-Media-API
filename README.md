@@ -4,10 +4,10 @@
   This application is an example of an social-network api backend functionality
 
 ## Walkthrough Video
-
- https://drive.google.com/file/d/1mkeKGXe2I8xkWzQOiSggjrhHQiQnHe7M/view
+https://drive.google.com/file/d/13qAd-q7IqtZkC2dzs2SflXIiShjOklY6/view
+ [!walkthroughvideogif](./assets/smvideo.gif)
  
- ![walkthrough video](./img/walkthrough.gif)
+
 
   ## Table of Contents
   * [Installation Guide](#installation-guidelines)
